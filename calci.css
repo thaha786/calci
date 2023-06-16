@@ -1,0 +1,100 @@
+body{
+
+    background-image: url(https://images3.alphacoders.com/276/276565.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calci{
+    margin-top: 10%;
+    margin-left: 35%;
+    position: absolute;
+    border: 8px solid rgb(255, 0, 89);
+    height: 60%;
+    width: 30%;
+    border-radius: 5%;
+}
+#n1{
+    margin: 10px;
+    height: 30px;
+    width: 77%;
+    background-color: rgb(39, 241, 241);
+    color: black;
+    font-size: 17px;
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    margin-left:10%;
+    border-radius: 5%;
+}
+#add,#sub,#mul,#div,#isequ,#re{
+    justify-content: space-around;
+    margin: 10px;
+    height: 10%;
+    width: 30%;
+    margin-left: 12.5%;
+    font-size: 30px;
+    background-color:rgb(0, 238, 255);
+    color: rgb(197, 24, 24);
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 2px 2px 20px pink;
+    transition: transform 1s linear;
+}
+
+#add:hover{
+    transform:scale(1.1);
+}
+#sub:hover{
+    transform:scale(1.1);
+}
+#mul:hover{
+    transform:scale(1.1);
+}
+#div:hover{
+    transform:scale(1.1);
+}
+#isequ:hover{
+    transform: scale(1.1);
+}
+#re:hover{
+    transform:scale(1.1);
+}
+
+
+
+
+#result{
+    height: 10%;
+    width: 28%;
+    background-color:rgb(0, 238, 255);
+    height: 11%;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    border-radius: 5%;
+    color: rgb(197, 24, 24);
+    transition: transform 1s linear;
+}
+#result:hover{
+    transform: scale(1.1);
+}
+#wait{
+    height: 10%;
+    width: fit-content;
+    background-color: rgb(0, 238, 255);
+    height: 7%;
+    width:fit-content;
+    margin-left: 39%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    border-radius: 5%;
+    color: rgb(197, 24, 24);
+    transition: tranform 1s ease-in-out;
+}
+
+#wait:hover{
+    transform :scale(1.2);
+}
+    

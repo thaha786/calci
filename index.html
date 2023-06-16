@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Application</title>
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/calculator-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="calci.css">
+</head>
+<body>
+    <center><h3 style="border: 1px solid Orange;background-color:black"><b><i><font face="Algerian" color="white">Calculator</font></b></i></h3></center>
+
+   <div class="calci">
+
+      <input type="number" placeholder="Enter the 1st number...."  id="n1"><br>
+     
+     <div id="result">Final Result</div>
+     <div id="wait">Wait</div>
+     <input type="button" value="add" id="add" >
+     <input type="button" value="sub" id="sub" onclick="sub()" ><br>
+     <input type="button" value="mul" id="mul" >
+     <input type="button" value="div" id="div"><br>
+     <input type="button" value="=" id="isequ">
+     <input type="button" value="Reload" id="re" onClick="window.location.reload();">
+     <script src="calci.js"></script>
+   </div>
+
+</body>
+</html>
